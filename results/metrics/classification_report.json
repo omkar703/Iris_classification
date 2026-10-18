@@ -1,0 +1,56 @@
+{
+  "model": "GaussianNB",
+  "dataset": "Fisher Iris (1936)",
+  "total_samples": 150,
+  "accuracy": 0.96,
+  "classification_report": {
+    "setosa": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 50.0
+    },
+    "versicolor": {
+      "precision": 0.94,
+      "recall": 0.94,
+      "f1-score": 0.94,
+      "support": 50.0
+    },
+    "virginica": {
+      "precision": 0.94,
+      "recall": 0.94,
+      "f1-score": 0.94,
+      "support": 50.0
+    },
+    "accuracy": 0.96,
+    "macro avg": {
+      "precision": 0.96,
+      "recall": 0.96,
+      "f1-score": 0.96,
+      "support": 150.0
+    },
+    "weighted avg": {
+      "precision": 0.96,
+      "recall": 0.96,
+      "f1-score": 0.96,
+      "support": 150.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      50,
+      0,
+      0
+    ],
+    [
+      0,
+      47,
+      3
+    ],
+    [
+      0,
+      3,
+      47
+    ]
+  ]
+}

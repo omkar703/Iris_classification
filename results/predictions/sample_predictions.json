@@ -1,0 +1,114 @@
+[
+  {
+    "index": 0,
+    "features": {
+      "sepal length (cm)": 5.1,
+      "sepal width (cm)": 3.5,
+      "petal length (cm)": 1.4,
+      "petal width (cm)": 0.2
+    },
+    "true_class": "setosa",
+    "predicted_class": "setosa",
+    "probabilities": {
+      "setosa": 1.0,
+      "versicolor": 0.0,
+      "virginica": 0.0
+    }
+  },
+  {
+    "index": 25,
+    "features": {
+      "sepal length (cm)": 5.0,
+      "sepal width (cm)": 3.0,
+      "petal length (cm)": 1.6,
+      "petal width (cm)": 0.2
+    },
+    "true_class": "setosa",
+    "predicted_class": "setosa",
+    "probabilities": {
+      "setosa": 1.0,
+      "versicolor": 0.0,
+      "virginica": 0.0
+    }
+  },
+  {
+    "index": 50,
+    "features": {
+      "sepal length (cm)": 7.0,
+      "sepal width (cm)": 3.2,
+      "petal length (cm)": 4.7,
+      "petal width (cm)": 1.4
+    },
+    "true_class": "versicolor",
+    "predicted_class": "versicolor",
+    "probabilities": {
+      "setosa": 0.0,
+      "versicolor": 0.7516,
+      "virginica": 0.2484
+    }
+  },
+  {
+    "index": 75,
+    "features": {
+      "sepal length (cm)": 6.6,
+      "sepal width (cm)": 3.0,
+      "petal length (cm)": 4.4,
+      "petal width (cm)": 1.4
+    },
+    "true_class": "versicolor",
+    "predicted_class": "versicolor",
+    "probabilities": {
+      "setosa": 0.0,
+      "versicolor": 0.9801,
+      "virginica": 0.0199
+    }
+  },
+  {
+    "index": 100,
+    "features": {
+      "sepal length (cm)": 6.3,
+      "sepal width (cm)": 3.3,
+      "petal length (cm)": 6.0,
+      "petal width (cm)": 2.5
+    },
+    "true_class": "virginica",
+    "predicted_class": "virginica",
+    "probabilities": {
+      "setosa": 0.0,
+      "versicolor": 0.0,
+      "virginica": 1.0
+    }
+  },
+  {
+    "index": 125,
+    "features": {
+      "sepal length (cm)": 7.2,
+      "sepal width (cm)": 3.2,
+      "petal length (cm)": 6.0,
+      "petal width (cm)": 1.8
+    },
+    "true_class": "virginica",
+    "predicted_class": "virginica",
+    "probabilities": {
+      "setosa": 0.0,
+      "versicolor": 0.0,
+      "virginica": 1.0
+    }
+  },
+  {
+    "index": 149,
+    "features": {
+      "sepal length (cm)": 5.9,
+      "sepal width (cm)": 3.0,
+      "petal length (cm)": 5.1,
+      "petal width (cm)": 1.8
+    },
+    "true_class": "virginica",
+    "predicted_class": "virginica",
+    "probabilities": {
+      "setosa": 0.0,
+      "versicolor": 0.0505,
+      "virginica": 0.9495
+    }
+  }
+]

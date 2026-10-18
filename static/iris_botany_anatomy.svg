@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="100%" height="auto" style="background:#ffffff; border-radius:8px;">
+  <defs>
+    <style>
+      .label-title { font-family: 'Ubuntu', sans-serif; font-size: 14px; font-weight: 700; fill: #0f172a; }
+      .label-desc { font-family: 'Ubuntu', sans-serif; font-size: 12px; fill: #334155; }
+      .dim-line { stroke: #2563eb; stroke-width: 2; stroke-dasharray: 4,4; }
+      .dim-text { font-family: 'Ubuntu', sans-serif; font-size: 11px; font-weight: 600; fill: #2563eb; }
+      .box { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.5; rx: 6; }
+      .box-active { fill: #eff6ff; stroke: #2563eb; stroke-width: 2; rx: 6; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <!-- Flower Anatomy Schematic Panel -->
+  <g transform="translate(30, 25)">
+    <rect width="400" height="290" class="box"/>
+    <text x="20" y="32" class="label-title">Iris Floral Morphological Anatomy</text>
+    <text x="20" y="52" class="label-desc">Physical dimensions utilized for taxonomic classification</text>
+
+    <!-- Stylized Iris Flower Anatomy Illustration -->
+    <!-- Stem & Base -->
+    <path d="M 200 280 L 200 210" stroke="#059669" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 195 240 Q 150 250 130 280" stroke="#059669" stroke-width="3" fill="none"/>
+    <path d="M 205 230 Q 250 240 270 270" stroke="#059669" stroke-width="3" fill="none"/>
+
+    <!-- Receptacle / Perianth Tube -->
+    <ellipse cx="200" cy="205" rx="14" ry="10" fill="#047857"/>
+
+    <!-- Sepal (Lower Fall) Left -->
+    <path d="M 190 205 C 130 200 110 230 115 255 C 120 270 150 250 185 215 Z" fill="#93c5fd" stroke="#1d4ed8" stroke-width="1.5" opacity="0.9"/>
+    
+    <!-- Sepal (Lower Fall) Right -->
+    <path d="M 210 205 C 270 200 290 230 285 255 C 280 270 250 250 215 215 Z" fill="#93c5fd" stroke="#1d4ed8" stroke-width="1.5" opacity="0.9"/>
+
+    <!-- Central Fall Sepal -->
+    <path d="M 188 205 C 170 240 180 270 200 275 C 220 270 230 240 212 205 Z" fill="#60a5fa" stroke="#1e40af" stroke-width="1.5"/>
+
+    <!-- Petal (Upper Standard) Left -->
+    <path d="M 192 195 C 150 170 145 110 175 90 C 190 115 195 155 196 195 Z" fill="#c084fc" stroke="#7e22ce" stroke-width="1.5" opacity="0.85"/>
+
+    <!-- Petal (Upper Standard) Right -->
+    <path d="M 208 195 C 250 170 255 110 225 90 C 210 115 205 155 204 195 Z" fill="#c084fc" stroke="#7e22ce" stroke-width="1.5" opacity="0.85"/>
+
+    <!-- Central Standard Petal -->
+    <path d="M 196 195 C 185 140 185 95 200 80 C 215 95 215 140 204 195 Z" fill="#a855f7" stroke="#6b21a8" stroke-width="1.5"/>
+
+    <!-- Sepal Dimension Annotations -->
+    <line x1="85" y1="205" x2="85" y2="265" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="35" y="238" class="dim-text">Sepal Len</text>
+
+    <!-- Petal Dimension Annotations -->
+    <line x1="315" y1="80" x2="315" y2="195" class="dim-line" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="325" y="142" class="dim-text">Petal Len</text>
+  </g>
+
+  <!-- Specimen Morphometry Criteria Panel -->
+  <g transform="translate(460, 25)">
+    <rect width="410" height="290" class="box"/>
+    <text x="24" y="32" class="label-title">Taxonomic Differentiation Criteria</text>
+    <text x="24" y="52" class="label-desc">Key physical thresholds established by R.A. Fisher (1936)</text>
+
+    <g transform="translate(24, 75)">
+      <rect width="362" height="55" class="box-active"/>
+      <text x="14" y="22" font-family="'Ubuntu', sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">Iris setosa (Linearly Separable)</text>
+      <text x="14" y="42" font-family="'Ubuntu', sans-serif" font-size="12" fill="#334155">Petal Length &lt; 2.0 cm &bull; Petal Width &lt; 0.6 cm &bull; Wide Sepals</text>
+    </g>
+
+    <g transform="translate(24, 145)">
+      <rect width="362" height="55" class="box" style="stroke:#cbd5e1;"/>
+      <text x="14" y="22" font-family="'Ubuntu', sans-serif" font-size="13" font-weight="700" fill="#047857">Iris versicolor (Intermediate Form)</text>
+      <text x="14" y="42" font-family="'Ubuntu', sans-serif" font-size="12" fill="#334155">Petal Length 3.0 &ndash; 5.1 cm &bull; Petal Width 1.0 &ndash; 1.8 cm</text>
+    </g>
+
+    <g transform="translate(24, 215)">
+      <rect width="362" height="55" class="box" style="stroke:#cbd5e1;"/>
+      <text x="14" y="22" font-family="'Ubuntu', sans-serif" font-size="13" font-weight="700" fill="#b91c1c">Iris virginica (Maximal Morphometry)</text>
+      <text x="14" y="42" font-family="'Ubuntu', sans-serif" font-size="12" fill="#334155">Petal Length 4.5 &ndash; 6.9 cm &bull; Petal Width 1.4 &ndash; 2.5 cm</text>
+    </g>
+  </g>
+</svg>
