@@ -14,6 +14,7 @@ A rigorous machine learning framework and interactive operational console for bo
 - [Dataset Provenance & Schema](#dataset-provenance--schema)
 - [Prediction Results & Key Findings](#prediction-results--key-findings)
 - [Embedded Research Figures](#embedded-research-figures)
+- [Demonstration Video](#demonstration-video)
 - [Reproducibility & Installation](#reproducibility--installation)
 - [Running the Web Application](#running-the-web-application)
 - [Deployment to Render](#deployment-to-render)
@@ -166,6 +167,16 @@ Key analytical conclusions:
 ### Figure 2: Morphometric Floral Landmark Architecture
 ![Iris Floral Anatomical Landmarks](results/figures/iris_botany_anatomy.svg)
 *Figure 2: Vector anatomical schematic detailing measurement landmarks for upright standard petals and reflexed falling sepals according to historical botanical standards.*
+
+---
+
+## Demonstration Video
+
+Watch the operational walkthrough of the Iris Botanical Morphometric Classification interface below:
+
+https://github.com/user-attachments/assets/749a8fe4-176d-4603-bf6b-12c0468f028e
+
+> **Direct repository link:** [`results/Iris_demo.mp4`](results/Iris_demo.mp4)
 
 ---
 
